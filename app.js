@@ -22,5 +22,5 @@ function agregaramigo(){
 function sortearamigo(){
 let aleatorio = Math.floor(Math.random()*amigoslista.length);
 let amigoSecreto = amigoslista[aleatorio];
-ulamigos.innerHTML += `<li>Tu amigo secreto es: ${amigoSecreto}</li>`;
+ulresultado.innerHTML += `<li>Tu amigo secreto es: ${amigoSecreto}</li>`;
 }
